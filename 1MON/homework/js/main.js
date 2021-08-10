@@ -14,7 +14,7 @@ let dog_names = ["Max","HAS","PuRple","dog"]
 let findWords = () => {
     let response = '';
     for(let i = 0; i < dog_names.length; i++){
-        if(dog_string.includes(dog_names[i])){
+        if(dog_string.toLowerCase().includes(dog_names[i].toLowerCase())){
             response += `Matched dog_name\n`
         }else {
             response += `No Matches\n`
