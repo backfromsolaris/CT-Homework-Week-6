@@ -27,11 +27,11 @@ class racersData{
         let nationality_col = `${nationality}`;
         let sponsor_col = `${sponsor}`;
         let points_col =   `${points}`;
-        document.querySelector(DOM_Elements.racer_position).insertAdjacentHTML('beforeend',position_col);
-        document.querySelector(DOM_Elements.racer_full_name).insertAdjacentHTML('beforeend',name_col);
-        document.querySelector(DOM_Elements.racer_nationality).insertAdjacentHTML('beforeend',nationality_col);
-        document.querySelector(DOM_Elements.racer_sponsor).insertAdjacentHTML('beforeend',sponsor_col);
-        document.querySelector(DOM_Elements.racer_points).insertAdjacentHTML('beforeend',points_col);
+        document.querySelector(this.DOM_Elements.racer_position).insertAdjacentHTML('beforeend',position_col);
+        document.querySelector(this.DOM_Elements.racer_full_name).insertAdjacentHTML('beforeend',name_col);
+        document.querySelector(this.DOM_Elements.racer_nationality).insertAdjacentHTML('beforeend',nationality_col);
+        document.querySelector(this.DOM_Elements.racer_sponsor).insertAdjacentHTML('beforeend',sponsor_col);
+        document.querySelector(this.DOM_Elements.racer_points).insertAdjacentHTML('beforeend',points_col);
     };
 
 
